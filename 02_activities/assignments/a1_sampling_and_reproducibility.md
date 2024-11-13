@@ -1,22 +1,25 @@
 # ASSIGNMENT: Sampling and Reproducibility in Python
 
-Read the blog post [Contact tracing can give a biased sample of COVID-19 cases](https://andrewwhitby.com/2020/11/24/contact-tracing-biased/) by Andrew Whitby to understand the context and motivation behind the simulation model we will be examining.
+# ASSIGNMENT: Sampling and Reproducibility in Python
 
-Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
+# Author: Tagimasa
 
-Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+1. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post  
+The sample size is 1,000 individuals attending one of the events, wedding or brunch. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding. The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases. So, we have the following main stages - attendance sampling, infection sampling, prim. tracing sampling, sec. tracing. 
+That is what mentioned in the blog, that contact tracing lead to higher presentation of large events – for example weddings, and that creates disproportion in the results and further analysis- the chart represents true and observed proportion of infections resulted from the weddings.
+2. Does this code appear to reproduce the graphs from the original blog post? 
+Not the same but very similar – please see attached .png files with graphs from the blog post and Python script file whitby_covid_tracing.py run 50000 and 1000 number of repetitions. The peak of Proportion of cases is around 0,2 but with decreasing number of repetitions from 50 to 1k the weight of cases moves from 0,15 to 0,25
+3. Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results 
+The peak of Proportion of cases is around 0,2 but with decreasing number of repetitions from 50 to 1k the weight of cases moves from 0,15 to 0,25
+4. Describe the changes you made to the code and how they affected the reproducibility of the script file 
+I used randome seed - np.random.seed(42) to ensure the simulation is reproducible.
 
-Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
-
-Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
-
-# Author: YOUR NAME
+Please see the charts
+![chart from the blog](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart%20from%20the%20blog.png)
+![50000  rep chart](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart%20_50000%20_rep.png)
+![1000  rep chart](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart_1000%20_rep.png)
 
 ```
-Please write your explanation here...
-
-```
-
 
 ## Criteria
 
