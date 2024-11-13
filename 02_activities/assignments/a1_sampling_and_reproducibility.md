@@ -1,6 +1,5 @@
 # ASSIGNMENT: Sampling and Reproducibility in Python
 
-# ASSIGNMENT: Sampling and Reproducibility in Python
 
 # Author: Tagimasa
 
