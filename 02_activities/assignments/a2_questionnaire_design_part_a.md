@@ -16,30 +16,79 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target Population: people in the age of 15-75 listeners of music
+Sampling Frame: students and stuff of University of Toronto which we can question through personal interview
+Sampling Units: respondents who agreed to share their musical tastes and listening behaviour 
+Observational units:  individual respondents
+
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+
+1/ What is your gender
+1. n/a
+2. female
+3. other 
+4. male
+   
+2/ What is your age
+1. 15-25
+2. 26-35
+3. 36-45
+4. 46-55
+5. 55-65
+6. 66-75
+
+3/ What is your occupation
+1. student
+2. teacher
+3. other
+
+4/ How often do you listen to music
+1. daily
+2. 3 times a week
+3. once a week
+4. less then once a week
+
+5/ Where do you listen to music (multiple choice)
+1. in the car
+2. while walking  
+3. while sport activities
+4. at home
+5. during studying/teaching sessions  
+
+6/ What type of media do you use (multiple choice)
+1. Spotify
+2. YouTube
+3. On-line Radio
+4. FM Radio
+5. Music TV
+6. Personal music device
+   
+7/ What type of device do you use (multiple choice)
+1. Mobile phone
+2. TV
+3. Radio
+4. Pretentious super-expensive Vinyl Record Player
+5. Your favorite cassette player from the 70s
+
+8/ What genre of music do you prefer (multiple choice)
+1. Sipsonwave
+2. Mongolian Solar Punk
+3. German reggae 
+4. Hypnagogic Pop
+5. Witch house
+6. Pirate Metal
+7. Funny and frivolous Nordic Noir
+8. Pretentious classic
+9. Boring Jazz
+10. Other – please enter your options 
+
 ```
 
 ## Rubric
