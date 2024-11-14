@@ -4,20 +4,25 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    Yes I think we can make the sample representative to the toal population as in the university of Toronto we can find more than 95000 students and around of 10000 stuff including around 20% international students. some problems can appear in terms of countryside population and with low income/low education level people
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    Yes I made some redesign to my previous version of questionnaire (please see attached file "Questionnaire assignment 3.docx in this folder). All corrections are highlited with yellow color
+    I've added the following questions:
+    "3/ What is the city where you spent your childhood" - in this case we can find the ethnicity of the respondent and his/her geographical identification without asking sensitive-looking information. Ethnical or geographical identity is heavyly influence on the result of the survey
+    "Other (add your option)" - to make the questionnaire loking simple and easy to fill I prefer to give just several options of the answear and additional otion to give some unique respondent's information  - of course it will require more time to process collected data, but in this case you can find real/detailed peacture not the formal answear.
+    "10/ What is your favorite singer / group" - sometime the genre of the music is difficult to identificate for respondents so we can post analyse singer/groups answeas with online data - Spotify etc. (using AI, or just create some simple script) and in this way to get mor accurate result
+    I've added QR code with the link to online version of the Questionnaire to make it easier for responrents
+    and also adedd the information that some results will be availble public to motivate respondents to participate in the survey - i think it's interesting for students to find out what music preferences teachers have
     ```
-
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
-    ```
-    write your answer here...
-    ```
+Yes we can find all required information and we have quite big sample to weight results according to the total population demographic structure
+
+```
 
 ## Why am I doing this assignment?
 
