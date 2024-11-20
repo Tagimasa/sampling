@@ -9,9 +9,8 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 | Sample type                                           |sample survey with a cross-sectional design,  stratified design |Online sample using a two-wave panel design with a modified rolling cross-section during the campaign period| field samples (faecal samples)(+behavioral experiments with a captive colony of bats to assess dietary habits and echolocation behaviors)|
 | Sample size                                           |50,000 units |first wave - 37,822, second wave -10,340 |38 faecal samples|
 | Target population                                     |all people 15+, except residents of YT, NWT, NU and full-time residents of institutions|Canadian voters - people 18+|Glossophaga soricine bats|
-| Sampling frame                                        | two different components: 1. List of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.); 2. The Address Register (AR): List of all dwellings within the ten provinces.|p18+ with internet and phone|Glossophaga soricine bats
-in the region Conservacion de Guanacaste, Costa Rica |
-| Survey mode(s)                                        |51|52|53|
+| Sampling frame                                        | two different components: 1. List of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.); 2. The Address Register (AR): List of all dwellings within the ten provinces.|p18+ with internet and phone|Glossophaga soricine bats in the region Conservacion de Guanacaste, Costa Rica |
+| Survey mode(s)                                        |self completed electronic questionnaire or CATI  telephone interviewing|online + phone|ﬁeld surveys, laboratory observations, captive behavioural experiments, acoustic analyses and genetic methods|
 | Timeline                                              |61|62|63|
 | Response rate                                         |71|72|73 |
 | Weights                                               |81|82|83|
