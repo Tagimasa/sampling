@@ -21,6 +21,41 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 | Citation                                              |                                                                                            |                                             |                                                                                             |
 | Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
 
+	Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)	Canadian Election Study Online Survey, 2019	Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack
+Sample type	sample survey with a cross-sectional design,  stratified design 	Online sample using a two-wave panel design with a modified rolling cross-section during the campaign period	" field samples (faecal samples) 
+(+behavioral experiments with a captive colony of bats to assess dietary habits and echolocation behaviors)"
+Sample size	50,000 units 	first wave - 37,822, second wave -10,340 	38 faecal samples
+Target population	"all people 15+, except residents of YT, NWT, NU and
+full-time residents of institutions"	Canadian voters - people 18+	Glossophaga soricine bats
+Sampling frame	 two different components: 1. List of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.); 2. The Address Register (AR): List of all dwellings within the ten provinces.	p18+ with internet and phone	"Glossophaga soricine bats
+in the region Conservacion de Guanacaste, Costa Rica "
+Survey mode(s)	Self completed electronic questionnaire or CATI  telephone interviewing	online + phone	"ﬁeld surveys, laboratory observations, captive behavioural experiments, 
+acoustic analyses and genetic methods "
+Timeline	"Reference period -12 months preceding interview date
+September 4, 2018 to December 28, 2018​
+Collection period-5 years, Q4"	"first wave 13/09 - 21/10, 2019
+second wave 24/10 - 11/11, 2019
+The 2019 CES included two survey components. Both included two waves of questions, one in the campaign period (CPS) and a recontact wave after the election (PES)."	Late May to early July 2009
+Response rate	41.9%	"first wave 45.48%
+second wave 61.62%"	n/a
+Weights	"estimation weights +bootstrap weights have been created for the purpose of design-based variance estimation
+ each person"" weightwas adjusted to reflect the demografics and geography"	"Marginal values were successively weighted according to 
+province, as well as gender, age group, and education level. All population data were taken 
+from the 2016 Canadian census. A maximum of 200 iterations were completed. "	n/a
+Data processing	Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs.	automatic data processing in the statistics program	"automatic data processing in the statistics program
+DNA and diet analysis, behavioral recording"
+Cleaning, imputation, etc.	all imputations were made using donor records selected through a score function. Imputation was carried out in nine steps. The first step consisted of imputing personal income and family income. The next three steps involved imputing the formal volunteering variables in the master file. Steps five and six were imputing the informal volunteering variables in the master file. Finally, the last three steps involved imputing variables in the donation file and the solicitation methods in the master file	data cleaning process, respondents were categorized based on their most important reason for removal, removed duplicates. 	data with extreme deviations?
+Sources of error	sampling error, coverage errors, data input erros 	sampling error, coverage errors, data input erros 	tests errors, data input erros, small sample size 
+Limitations, known biases	Households without telephones or internet 	"respondents from the territories do not have weights, as they were not included in the 
+sampling frame, because data collection in the territories is too sparse to be representative."	climatic and biological conditions in this region
+Citation	General Social Survey - Giving, Volunteering and Participating (GSS GVP), Statistics Canada	"Recommended Citations:
+Stephenson, Laura B; Harell, Allison; Rubenson, Daniel; Loewen, Peter John, 2020, “2019 Canadian Election Study – Online Survey”, https://doi.org/10.7910/DVN/DUS88V, Harvard Dataverse, V1"	"Trophic niche flexibility in Glossophaga soricina: how a nectar seeker sneaks an insect snack
+ Elizabeth L. Clare, Holger R. Goerlitz, et al 
+ Functional Ecology © 2013 British Ecological Societyhttps://doi.org/10.1111/1365-2435.12192open_in_newISSN0269-8463"
+Links to any documentation or additional sources used	https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2435.12192	http://www.ces-eec.ca/2019-canadian-election-study/	https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2435.12192
+![image](https://github.com/user-attachments/assets/142ed76c-71e1-4bd0-84a7-37c06ed0bc58)
+
+
 ## Criteria
 
 |Criteria|Complete|Incomplete|
