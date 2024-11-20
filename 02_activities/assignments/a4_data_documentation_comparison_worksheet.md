@@ -6,7 +6,8 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 |                                                       | Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33) | Canadian Election Study Online Survey, 2019 | Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack |
 |----------------|:--------------------|----------------|---------------------|
-| Sample type                                           | 1|2|3|
+| Sample type                                           |sample survey with a cross-sectional design,  stratified design |Online sample using a two-wave panel design with a modified rolling cross-section during the campaign period| field samples (faecal samples) 
+(+behavioral experiments with a captive colony of bats to assess dietary habits and echolocation behaviors)|
 | Sample size                                           |21|22|23|
 | Target population                                     |31|32|33|
 | Sampling frame                                        |41|42|43|
