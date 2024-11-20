@@ -11,7 +11,8 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 | Target population                                     |all people 15+, except residents of YT, NWT, NU and full-time residents of institutions|Canadian voters - people 18+|Glossophaga soricine bats|
 | Sampling frame                                        | two different components: 1. List of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.); 2. The Address Register (AR): List of all dwellings within the ten provinces.|p18+ with internet and phone|Glossophaga soricine bats in the region Conservacion de Guanacaste, Costa Rica |
 | Survey mode(s)                                        |self completed electronic questionnaire or CATI  telephone interviewing|online + phone|ﬁeld surveys, laboratory observations, captive behavioural experiments, acoustic analyses and genetic methods|
-| Timeline                                              |61|62|63|
+| Timeline                                              |Reference period -12 months preceding interview date September 4, 2018 to December 28, 2018​ Collection period-5 years, Q4|irst wave 13/09 - 21/10, 2019
+second wave 24/10 - 11/11, 2019 The 2019 CES included two survey components. Both included two waves of questions, one in the campaign period (CPS) and a recontact wave after the election (PES).|Late May to early July 2009|
 | Response rate                                         |71|72|73 |
 | Weights                                               |81|82|83|
 | Data processing                                       |91|92|93|
