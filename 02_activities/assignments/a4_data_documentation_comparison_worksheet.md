@@ -6,20 +6,20 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 |                                                       | Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33) | Canadian Election Study Online Survey, 2019 | Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack |
 |----------------|:--------------------|----------------|---------------------|
-| Sample type                                           |         1                            |    2                                       |                 3                                |
-| Sample size                                          |                        21        |         22                               |                      23                                   |
-| Target population                                     |         31                      |            32                                 |                  33                                   |
-| Sampling frame                                        |                                                                                            |                                             |                                                                                             |
-| Survey mode(s)                                        |                                                                                            |                                             |                                                                                             |
-| Timeline                                              |                                                                                            |                                             |                                                                                             |
-| Response rate                                         |                                                                                            |                                             |                                                                                             |
-| Weights                                               |                                                                                            |                                             |                                                                                             |
-| Data processing                                       |                                                                                            |                                             |                                                                                             |
-| Cleaning, imputation, etc.                            |                                                                                            |                                             |                                                                                             |
-| Sources of error                                      |                                                                                            |                                             |                                                                                             |
-| Limitations, known biases                             |                                                                                            |                                             |                                                                                             |
-| Citation                                              |                                                                                            |                                             |                                                                                             |
-| Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
+| Sample type                                           | 1|2|3|
+| Sample size                                           |21|22|23|
+| Target population                                     |31|32|33|
+| Sampling frame                                        |41|42|43|
+| Survey mode(s)                                        |51|52|53|
+| Timeline                                              |61|62|63|
+| Response rate                                         |71|72|73 |
+| Weights                                               |81|82|83|
+| Data processing                                       |91|92|93|
+| Cleaning, imputation, etc.                            | 11|12|13|
+| Sources of error                                      |1|2|3|
+| Limitations, known biases                             |1|2|3|
+| Citation                                              |1|2|3|
+| Links to any documentation or additional sources used |1|2|3|
 
 	Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)	Canadian Election Study Online Survey, 2019	Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack
 Sample type	sample survey with a cross-sectional design,  stratified design 	Online sample using a two-wave panel design with a modified rolling cross-section during the campaign period	" field samples (faecal samples) 
