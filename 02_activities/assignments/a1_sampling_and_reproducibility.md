@@ -7,15 +7,15 @@
 
 We have the following main sampling stages:
 
-   s1- attendance sampling
-   s2- infection sampling
-   s3- prim. tracing sampling
+   s1- attendance sampling,
+   s2- infection sampling,
+   s3- prim. tracing sampling,
    s4- sec. tracing
 
-s1 - The sample size is 1,000 individuals attending one of the events - wedding or brunch. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding.
-s2 - The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). 
-s3 - The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). 
-s4 - Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases. So, 
+s1 - The sample size is 1,000 individuals attending one of the events - wedding or brunch. the code assignes every individual to one of the event. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding.
+s2 - The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). randomly chosen 10% individuals assigned as infected it is the same for both types of events
+s3 - The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). it means that every infected individual has a 20% chance to be sucessfully traced so we have 100 ind. infected and 20 cases traced. quite a small number as mentioned in trhe blog.
+s4 - Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases - if 2 or more infections traced for the event, then all infected for the event mentioned as traced.
 That is what mentioned in the blog, that contact tracing lead to higher presentation of large events – for example weddings, and that creates disproportion in the results and further analysis- the chart represents true and observed proportion of infections resulted from the weddings.
 
 2. Does this code appear to reproduce the graphs from the original blog post? 
