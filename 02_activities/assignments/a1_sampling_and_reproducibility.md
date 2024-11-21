@@ -20,12 +20,12 @@ That is what mentioned in the blog, that contact tracing lead to higher presenta
 
 2. Does this code appear to reproduce the graphs from the original blog post? 
 
-Not the same but very similar – please see attached .png files with graphs from the blog post and Python script file whitby_covid_tracing.py run 50000 and 1000 number of repetitions. 
+Not the same – please see attached .png files with graphs from the blog post and Python script file whitby_covid_tracing.py run 50000 and 1000 number of repetitions. 
 The difference in the histogramms: The peak of Proportion of cases is around 0,2 but with decreasing number of iterations from 50.000 to 1.000 the weight of cases moves from 0,15 to 0,25, i.e. in case of 50.000 iterations high weight of 0,15 while in case of 1.000 iterations weight is high in 0,25. 
 
 3. Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results 
 
-The peak of Proportion of cases is around 0,2 but with decreasing number of repetitions from 50 to 1k the weight of cases moves from 0,15 to 0,25
+The peak of Proportion of cases is around 0,2 but, the difference in the histogramms: The peak of Proportion of cases is around 0,2 but with decreasing number of iterations from 50.000 to 1.000 the weight of cases moves from 0,15 to 0,25, i.e. in case of 50.000 iterations high weight of 0,15 while in case of 1.000 iterations weight is high in 0,25.
 
 4. Describe the changes you made to the code and how they affected the reproducibility of the script file 
 
