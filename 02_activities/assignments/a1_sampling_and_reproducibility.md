@@ -7,10 +7,10 @@
 
 We have the following main sampling stages:
 
-   s1- attendance sampling,
-   s2- infection sampling,
-   s3- prim. tracing sampling,
-   s4- sec. tracing.
+   s1- attendance sampling
+   s2- infection sampling
+   s3- prim. tracing sampling
+   s4- sec. tracing
 
 s1 - The sample size is 1,000 individuals attending one of the events - wedding or brunch. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding.
 s2 - The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). 
