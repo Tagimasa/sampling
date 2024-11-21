@@ -5,7 +5,15 @@
 
 1. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post  
 
-The sample size is 1,000 individuals attending one of the events, wedding or brunch. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding. The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases. So, we have the following main stages - attendance sampling, infection sampling, prim. tracing sampling, sec. tracing. 
+We have the following main sampling stages:
+s1- attendance sampling,
+s2- infection sampling,
+s3- prim. tracing sampling,
+s4- sec. tracing.
+s1 - The sample size is 1,000 individuals attending one of the events - wedding or brunch. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding.
+s2 - The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). 
+s3 - The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). 
+s4 - Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases. So, 
 That is what mentioned in the blog, that contact tracing lead to higher presentation of large events – for example weddings, and that creates disproportion in the results and further analysis- the chart represents true and observed proportion of infections resulted from the weddings.
 
 2. Does this code appear to reproduce the graphs from the original blog post? 
