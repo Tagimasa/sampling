@@ -1,22 +1,42 @@
 # ASSIGNMENT: Sampling and Reproducibility in Python
 
-Read the blog post [Contact tracing can give a biased sample of COVID-19 cases](https://andrewwhitby.com/2020/11/24/contact-tracing-biased/) by Andrew Whitby to understand the context and motivation behind the simulation model we will be examining.
 
-Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
+# Author: Tagimasa
 
-Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+1. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post  
 
-Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+We have the following main sampling stages:
 
-Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
+   s1- attendance sampling,
+   s2- infection sampling,
+   s3- prim. tracing sampling,
+   s4- sec. tracing
 
-# Author: YOUR NAME
+s1 - The sample size is 1,000 individuals attending one of the events - wedding or brunch. the code assignes every individual to one of the event. The sampling frame - 800 individuals are assigned to the brunch, 200 individuals are assigned to the wedding.
+s2 - The model define Infection probability as 10% - np.random.choice(). It is binomial distribution – yes/no (infected or not inf.). randomly chosen 10% individuals assigned as infected it is the same for both types of events
+s3 - The model defines the success rate for tracing infected people is 20% - TRACE_SUCCESS (0.2). it means that every infected individual has a 20% chance to be sucessfully traced so we have 100 ind. infected and 20 cases traced. quite a small number as mentioned in trhe blog.
+s4 - Then secondary tracing (SECONDARY_TRACE_THRESHOLD = 2) applied to the events that have 2 traced cases - if 2 or more infections traced for the event, then all infected for the event mentioned as traced.
+That is what mentioned in the blog, that contact tracing lead to higher presentation of large events – for example weddings, and that creates disproportion in the results and further analysis- the chart represents true and observed proportion of infections resulted from the weddings.
+
+2. Does this code appear to reproduce the graphs from the original blog post? 
+
+Not the same – please see attached .png files with graphs from the blog post and Python script file whitby_covid_tracing.py run 50000 and 1000 number of repetitions. 
+The difference in the histogramms: The peak of Proportion of cases is around 0,2 but with decreasing number of iterations from 50.000 to 1.000 the weight of cases moves from 0,15 to 0,25, i.e. in case of 50.000 iterations high weight of 0,15 while in case of 1.000 iterations weight is high in 0,25. 
+
+3. Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results 
+
+The peak of Proportion of cases is around 0,2 but, the difference in the histogramms: The peak of Proportion of cases is around 0,2 but with decreasing number of iterations from 50.000 to 1.000 the weight of cases moves from 0,15 to 0,25, i.e. in case of 50.000 iterations high weight of 0,15 while in case of 1.000 iterations weight is high in 0,25.
+
+4. Describe the changes you made to the code and how they affected the reproducibility of the script file 
+
+I used randome seed - np.random.seed(42) to ensure the simulation is reproducible.
+
+Please see the charts
+![chart from the blog](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart%20from%20the%20blog.png)
+![50000  rep chart](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart%20_50000%20_rep.png)
+![1000  rep chart](https://github.com/Tagimasa/sampling/blob/task-1/02_activities/assignments/chart_1000%20_rep.png)
 
 ```
-Please write your explanation here...
-
-```
-
 
 ## Criteria
 
