@@ -6,6 +6,7 @@
 1. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post  
 
 We have the following main sampling stages:
+
 s1- attendance sampling,
 s2- infection sampling,
 s3- prim. tracing sampling,
